@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.org/toolness/lotl-site-prototype.svg)](https://travis-ci.org/toolness/lotl-site-prototype)
 
-This is a potential replacement for the [Life of The Law][lotl] website.
+This is the [Life of The Law][lotl] website.
 
 ## Quick Start
 
 ```
-git clone https://github.com/toolness/lotl-site-prototype.git
-cd lotl-site-prototype
+git clone https://github.com/philwilt/lifeofthelaw.git
+cd lifeofthelaw
 npm install
 npm test
 DEBUG= node app.js
@@ -40,8 +40,14 @@ string), the boolean is true; otherwise, it's false.
 
 * `NEWRELIC_LICENSE_KEY` is the license key for New Relic APM.
 
+## Credits
+
+Original prototype by [toolness][toolness prototype]
+
+
 <!-- Links -->
 
   [lotl]: http://lifeofthelaw.org
   [wpapi]: https://wordpress.org/plugins/json-api/
   [New Relic]: http://newrelic.com/
+  [toolness prototype]: https://github.com/toolness/lotl-site-prototype
